@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "description": "Install a monitor arm",
+    "assigneeId": 2,
+    "completed": false
+  },
+  {
+    "id": 2,
+    "description": "Move the desk to the new location",
+    "assigneeId": 2,
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "Clean the working desk",
+    "assigneeId": 3,
+    "completed": false
+  }
+]
