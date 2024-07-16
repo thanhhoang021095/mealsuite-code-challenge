@@ -3,7 +3,7 @@ import { NextApiResponse } from "next";
 import ticketsData from "../../../data/tickets.json";
 import { NextResponse } from "next/server";
 import { type NextRequest } from "next/server";
-import { getDisplayCompleteStatus } from "@/utils/common";
+import { getDisplayCompleteStatus } from "../../../utils/common";
 
 export async function GET(req: NextRequest, _res: NextApiResponse) {
   const searchParams = req.nextUrl.searchParams;
